@@ -12,7 +12,6 @@ const jsImport = require('gulp-js-import');
 const sourcemaps = require('gulp-sourcemaps');
 const htmlPartial = require('gulp-html-partial');
 const clean = require('gulp-clean');
-const htmlPartial = require('gulp-html-partial');
 const isProd = process.env.NODE_ENV === 'prod';
 
 const htmlFiles = [
